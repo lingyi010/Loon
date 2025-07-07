@@ -1,6 +1,9 @@
 #!name=Spotify
 #!openUrl=https://apps.apple.com/app/id324684580
-# https://github.com/app2smile/rules
+#!tag=去广告
+#!author=app2smile[https://github.com/app2smile]
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Spotify.png
+#!date=2025-07-07
 
 [Rewrite]
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ header-del if-none-match
